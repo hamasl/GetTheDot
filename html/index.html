@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get the dot</title>
+</head>
+
+<body>
+  <div id="main-container">
+    <div id="header">
+      <h1><b style="font-size: 50px;">GET THE DOT</b></h1>
+      <h2 id="points">POINTS: 0</h2>
+      <p id="info">Info</p>
+      <div id="difficultyModifiers">
+        <button class="difficultyModifiers" id="easy" value="2000">Easy</button>
+        <button class="difficultyModifiers" id="medium" value="1500">Medium</button>
+        <button class="difficultyModifiers" id="hard" value="1000">Hard</button></div>
+      <p id="countdown"></p>
+    </div>
+
+    <div id="game-container">
+      <div id="player"></div>
+      <div id="dot"></div>
+    </div>
+
+    <div id="bottom">
+      <button id="start">Start game</button>
+      <button id="end">End game</button>
+      <p id="madeBy">Made by: Martin Hagen</p>
+    </div>
+  </div>
+  <script type="module" src="../scripts/player.js"></script>
+  <script type="module" src="../scripts/dot.js"></script>
+  <script type="module" src="../scripts/game.js"></script>
+  <script src="../scripts/info.js"></script>
+</body>
+
+</html>

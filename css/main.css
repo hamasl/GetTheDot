@@ -1,0 +1,79 @@
+body{
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Times New Roman', Times, serif;
+  background: url(../img/background.jpeg) center/cover;
+}
+
+#main-container{
+  text-align: center;
+}
+
+#info {
+  font-size: 18px;
+}
+
+#countdown{
+  font-size: 22px;
+}
+
+#game-container {
+  margin: 40px auto;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background: #3bc22b;
+  box-shadow: 2px 2px 7px 7px black;
+}
+
+#player {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 175px;
+  left: 175px;
+}
+
+#dot {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
+
+#header, #madeBy{
+  padding: 10px;
+
+  background-color: lightgrey;
+  box-shadow: 2px 2px 7px 7px black;
+}
+
+button{
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 7px black;
+  margin: 8px;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+  height: 42px;
+  width: 175px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px 7px black;
+  margin: 8px;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+button:active{
+  height: 47px;
+  width: 94px;
+  font-size: 12px;
+}
