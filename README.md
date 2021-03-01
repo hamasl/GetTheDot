@@ -2,11 +2,11 @@
 Project i made for fun and to learn JS. Completed it during 3 days in the summer of 2020.
 
 ## Requirements:
-node
+node  
 npm install express
 
 ## Run by using:
-node server.js
+node server.js  
 Open web browser on localhost:8080
 
 ## Future:
