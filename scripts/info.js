@@ -2,7 +2,7 @@ const INFO_ELEMENT = document.querySelector("#info")
 
 const INFO_PARAGRAPH = document.createElement("p")
 
-INFO_PARAGRAPH.innerText = `Move with: WASD or the arrow keys\n Press c to change color\nSelect difficulty with the buttons.`
+INFO_PARAGRAPH.innerText = `Move with: WASD (recommended) or the arrow keys\n Press c to change color\nSelect difficulty with the buttons.`
 
 /**
  * Adds the info paragrapf as child of the info element, when the mouse hovers over it 
