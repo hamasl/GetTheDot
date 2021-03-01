@@ -2,9 +2,6 @@ const express = require('express');
 const app = express()
 app.use(express.static(__dirname))
 const PORT = '8080'
-/*app.use((req, res) => {
-  console.log(req.headers);
-})*/
 
 app.get("/", (req, res) => {
   res.sendFile("html/index.html", { root: __dirname })
