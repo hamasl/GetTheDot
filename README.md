@@ -9,5 +9,5 @@ npm install express
 node server.js
 Open web browser on localhost:8080
 
-##Future:
+## Future:
 Might add more functinality later which is found in the future functionality folder.
